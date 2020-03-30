@@ -1,0 +1,13 @@
+// Variáveis usadas no SASS
+
+// Cor mais escura, preservando cor original 
+// Funções darken/lighten/adjust-hue()/saturate()/complement()
+$cor-padrao: saturate(#c24e4b, 0); 
+$cor-auxiliar: lighten(#1e2c35, 5);
+$cor-branca: #fff;
+
+$ponto-de-quebra: 980px;
+
+$mq-mobile: "(max-width: 980px)";
+
+$tamanho-fonte-padrao: 16px;
